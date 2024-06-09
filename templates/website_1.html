@@ -1,0 +1,65 @@
+{% extends "shablon.html" %}
+
+{% block title %}
+Рецепты кофе
+
+{% endblock %}
+
+
+{% blok content %}
+
+<main class="container my-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{link}}</h5>
+            <p class="card-text">Кофе эспрессо (свежесваренный) - 250 г
+Сливки жирные - 100 г
+Сахарная пудра - 1 ст. л.
+Женевер (джиневер) (Genever) (бельгийский алкогольный напиток, сходный с джином) - 25-45 г
+Ликер "Крем де какао" (Creme de Cacao) - 45 г
+Какао-порошок - 1 ч. л..</p>
+               <img src="../static/image/Кофе по-льежски.jpg/" class="figure-img img-fluid rounded" alt="..." style="width: 300px; height: 200px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Кофе по-турецки</h5>
+            <p class="card-text">Кофе свежемолотый (максимально мелкий) - 2 ч. ложки
+Вода - 1 стакан
+Пудра сахарная - 0,5 ст. ложки
+Желток - 1 шт.
+Для сервировки (по желанию):
+Конфета шоколадная
+Орехи кешью.</p>
+              <img src="../static/image/По турецки.jpg" class="figure-img img-fluid rounded" alt="..." style="width: 300px; height: 200px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Cafe de olla</h5>
+            <p class="card-text">Вода — 1 л
+Сахар темно-коричневый — 150 г
+Патока — 1 ч. л.
+Корица — 1 маленькая палочка
+Кофе жареный, среднего помола — 50 г
+Анисовые семена (по желанию)</p>
+              <img src="../static/image/Мексикански.jpg" class="figure-img img-fluid rounded" alt="..." style="width: 300px; height: 200px;">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+{% endblock %}
+
